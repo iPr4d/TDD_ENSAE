@@ -39,4 +39,4 @@
 
 NB: si le nom d'utilisateur est inconnu, exécuter 'cd /home && ls' et le nom d'utilisateur s'affichera.
 
-- Exécuter le fichier python via la commande :  cat {chemin_dossier}/test_mkdir_ssh.py | ssh -p 2222 root@localhost python3 -
+- Exécuter le fichier python via la commande :  cat {chemin_dossier}/start_jupyter.py | ssh -p 2222 root@localhost python3 -
