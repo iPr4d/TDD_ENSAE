@@ -7,7 +7,7 @@ Ce repository contient le code Python pour le cours de Traitement des données d
 
     - Aller dans le Terminal de la machine virtuelle
 
-    - Exécuter sudo apt-get update puis sudo apt-get install openssh-server
+    - Exécuter `sudo apt-get update` puis `sudo apt-get install openssh-server`
 
     - Stopper la machine
 
@@ -23,11 +23,11 @@ Ce repository contient le code Python pour le cours de Traitement des données d
         - Décommenter PermitRootLogin et remplacer par "yes"
         - Relancer le service ssh via sudo service ssh restart
 
-2) Créer un mdp pour le user root : sudo passwd root (à utiliser pour se connecter à la machine via SSH)
+2) Créer un mdp pour le user root : `sudo passwd root` (à utiliser pour se connecter à la machine via SSH)
 
-3) Se connecter à la machine en local via la commande : ssh root@127.0.0.1 -p 2222
+3) Se connecter à la machine en local via la commande : `ssh root@127.0.0.1 -p 2222`
 
 4) Exécuter le fichier python via la commande :  
-    cat {chemin_dossier}/TDD_ENSAE/start_jupyter.py | ssh -p 2222 root@localhost python3 -
+    `cat {chemin_dossier}/TDD_ENSAE/start_jupyter.py | ssh -p 2222 root@localhost python3 -`
     
  Jupyter notebook est accessible dans le navigateur hôte à l'adresse http://127.0.0.1:8004/?token={TOKEN_ID}. L'environnement conda activé permet d'utiliser pyspark configuré sur la machine. 
