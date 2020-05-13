@@ -1,6 +1,6 @@
-Ce repository contient le code Python pour le cours de Traitement des données distribuées (ENSAE 2020). Il permet d'automatiser l'installation de Java, Spark et Anaconda puis de configurer un environnement conda contenant pyspark et de lancer un serveur jyputer notebook accessible depuis le navigateur hôte.
+Ce repository contient le code Python pour le cours de Traitement des données distribuées (ENSAE 2020). Il permet d'automatiser l'installation de Java, Spark et Anaconda puis de configurer un environnement conda contenant pyspark et de lancer un serveur jyputer notebook accessible depuis le navigateur hôte après une rapide configuration SSH sur la machine virtuelle.
 
-# Tâches à réaliser juste après la création d'une machine virtuelle sur VirtualBox
+### Tâches à réaliser juste après la création d'une machine virtuelle sur VirtualBox
 
 
 1) Connexion SSH : https://medium.com/@pierangelo1982/setting-ssh-connection-to-ubuntu-on-virtualbox-af243f737b8b
