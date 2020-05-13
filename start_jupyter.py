@@ -42,8 +42,6 @@ if __name__ == '__main__':
     # Decompress Spark archive
     if not 'spark-2.4.5-bin-hadoop2.7' in os.listdir(f'{user_directory}/spark-hadoop'):
         os.chdir(f'{user_directory}/spark-hadoop')
-        # cmd_decrompress_spark = ['tar', '-xvf', f'{user_directory}/spark-hadoop/spark-2.4.5-bin-hadoop2.7.tgz']
-        # subprocess.Popen(cmd_decrompress_spark, cwd=f'{user_directory}/spark-hadoop')
         os.system(f'tar -xvf {user_directory}/spark-hadoop/spark-2.4.5-bin-hadoop2.7.tgz')
         logging.info('Spark unzipped succesfully')
     else: 
